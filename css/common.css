@@ -1,0 +1,134 @@
+body {
+  line-height: 1.5;
+  font-family: 'medium', '微软雅黑', '黑体';
+  background: #e7dfcd;
+  font-size: 14px;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+input,textarea,button {
+  background: none;
+  border: 0;
+  outline: none;
+  font-size: 16px;
+  width: 90%;
+  color: #5f5649;
+}
+
+.ver-center {
+  -webkit-display: flex;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+}
+
+.clear-float::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.word_rl {
+  writing-mode: tb-rl;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+}
+
+.text-hidden-line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-hidden-lines {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.float__left {
+  float: left;
+}
+
+.float__right {
+  float: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.fix-top {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.case01 {
+  background: #c5ad98;
+}
+
+.case02 {
+  background: #e44419;
+}
+
+.case03 {
+  background: #d69a66;
+}
+
+.case04 {
+  background: #ad9a6e;
+}
+
+.case05 {
+  background: #e71a1f;
+}
+
+.case06 {
+  background: #a77c57;
+}
+
+.case07 {
+  background: #c5ad98;
+}
