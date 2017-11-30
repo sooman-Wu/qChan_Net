@@ -12,52 +12,14 @@
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/jPages.js"></script>
   <link rel="stylesheet" href="css/hover-min.css">
-  <script>
-    var name = "jPages",
-      instance = null,
-      defaults = {
-        containerID: "",
-        first: false,
-        previous: "",
-        next: "",
-        last: false,
-        links: "numeric", // blank || title
-        startPage: 1,
-        perPage: 4,
-        midRange: 3,
-        startRange: 1,
-        endRange: 1,
-        keyBrowse: false,
-        scrollBrowse: false,
-        pause: 0,
-        clickStop: false,
-        delay: 50,
-        direction: "forward", // backwards || auto || random ||
-        animation: "", // http://daneden.me/animate/ - any entrance animations
-        fallback: 400,
-        minHeight: true,
-        callback: undefined // function( pages, items ) { }
-      };
-  </script>
-  <script type="text/javascript">
-    $(function() {
-      $("ul.holder").jPages({
-        containerID: "itemContainer",
-        scrollBrowse: false
-      });
-      $("ul.holder1").jPages({
-        containerID: "itemContainer",
-        scrollBrowse: false
-      });
 
-    });
-  </script>
 </head>
 
 <body>
   <div class="container">
     <div class="content_wrapper">
       <ul class="text-right header fix-top">
+        <div class="top-logo float__left"><img src="images/top_logo.png" alt=""></div>
         <li class="now hvr-grow"><a href="index.html">首页</a></li>
         <li class="hvr-grow"><a href="service.html">服务项目</a></li>
         <li class="hvr-grow"><a href="index.html#case">成功案例</a></li>
@@ -67,7 +29,10 @@
         <li class="hvr-grow"><a href="contact.html">联系我们</a></li>
       </ul>
     </div>
-    <div class="banner_wrapper"><img src="images/index_banner.png" alt=""></div>
+    <div class="banner_wrapper">
+      <img src="images/index_banner.png" alt="">
+      <div class="banner-word">清<label>蝉</label>网络</div>
+    </div>
     <div class="nav-title">
       <div class="content_wrapper">
         <p>您现在的位置：首页>新闻动态</p>
@@ -203,7 +168,46 @@
       </div>
     </div>
   </div>
+  <script>
+    var name = "jPages",
+      instance = null,
+      defaults = {
+        containerID: "",
+        first: false,
+        previous: "",
+        next: "",
+        last: false,
+        links: "numeric", // blank || title
+        startPage: 1,
+        perPage: 4,
+        midRange: 3,
+        startRange: 1,
+        endRange: 1,
+        keyBrowse: false,
+        scrollBrowse: false,
+        pause: 0,
+        clickStop: false,
+        delay: 50,
+        direction: "forward", // backwards || auto || random ||
+        animation: "", // http://daneden.me/animate/ - any entrance animations
+        fallback: 400,
+        minHeight: true,
+        callback: undefined // function( pages, items ) { }
+      };
+  </script>
+  <script type="text/javascript">
+    $(function() {
+      $("ul.holder").jPages({
+        containerID: "itemContainer",
+        scrollBrowse: false
+      });
+      $("ul.holder1").jPages({
+        containerID: "itemContainer",
+        scrollBrowse: false
+      });
 
+    });
+  </script>
   <script type="text/javascript">
     $('.tab').on('click', 'li', function() {
       var index = $(this).index();

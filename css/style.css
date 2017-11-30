@@ -59,7 +59,8 @@ p {
   padding-right: 0;
 }
 
-.header li:active, .header li:hover {
+.header li:active,
+.header li:hover {
   color: #e71a1f;
 }
 
@@ -453,7 +454,7 @@ p {
 .footer {
   width: 100%;
   padding: 40px 0;
-  background: url(../images/foot_bg.png) no-repeat center;
+  background: url("../images/foot_bg.png") no-repeat center;
   background-size: 100% 100%;
 }
 
@@ -482,7 +483,9 @@ p {
   /* Opera */
 }
 
-.foot_wrapper ul li.now, .foot_wrapper ul li:hover, .foot_wrapper ul li:active {
+.foot_wrapper ul li.now,
+.foot_wrapper ul li:active,
+.foot_wrapper ul li:hover {
   color: #e71a1f;
 }
 
@@ -671,4 +674,70 @@ p {
 
 .tab-choose .jp-next {
   display: none;
+}
+
+.templet_lis.service-wrapper ul {
+  width: 100%;
+}
+
+.templet_lis.service-wrapper ul li {
+  width: 25%;
+}
+
+.serviceWrapper {
+  padding: 40px 0;
+}
+
+.serviceWrapper .service-left {
+  width: 55%;
+}
+
+.serviceWrapper .service-right {
+  width: 45%;
+}
+
+.service-lis-wrapper1 {
+  background: #e1d6c4;
+}
+
+.service-lis-wrapper {
+  padding: 50px 0;
+  color: #46331b;
+}
+
+.service-lis-wrapper h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.service-lis-wrapper p {
+  font-size: 14px;
+}
+
+.service-lis-wrapper ul li {
+  width: 50%;
+  float: left;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.service-lis-wrapper ul li span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #c3ab97;
+}
+
+.service-lis-wrapper .service-img {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+
+.service-lis-wrapper .service-img img {
+  height: 100%;
+  display: block;
+  margin: 0 auto;
 }
