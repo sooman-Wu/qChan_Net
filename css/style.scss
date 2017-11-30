@@ -49,10 +49,20 @@ p {
     display: inline-block;
     height: 100%;
     padding: 0 10px;
+    transition: color 1s;
+-moz-transition: color 1s;
+/* Firefox 4 */
+-webkit-transition: color 1s;
+/* Safari 和 Chrome */
+-o-transition: color 1s;
+/* Opera */
   }
 
   li:last-child {
     padding-right: 0;
+  }
+  li:active,li:hover {
+    color: $item_red;
   }
 
   .now {
@@ -134,10 +144,10 @@ p {
     li {
       width: 20%;
       float: left;
-      transition: all 2s;
-      -moz-transition: all 2s; /* Firefox 4 */
-      -webkit-transition: all 2s; /* Safari 和 Chrome */
-      -o-transition: all 2s;
+      transition: all 1s;
+      -moz-transition: all 1s; /* Firefox 4 */
+      -webkit-transition: all 1s; /* Safari 和 Chrome */
+      -o-transition: all 1s;
       /* Opera */
       h1 {
         margin: 40px 0 20px;
@@ -250,9 +260,13 @@ p {
     width: 270px;
     height: 260px;
     background: #dcc2ba;
+    overflow: hidden;
     position: absolute;
     top: 35px;
     left: -24%;
+    img {
+      width: 100%;
+    }
   }
 
   .net_info {
@@ -318,6 +332,8 @@ p {
 
     p {
       margin-bottom: 60px;
+      height: 63px;
+      -webkit-line-clamp: 3;
     }
 
     a {
@@ -459,9 +475,16 @@ p {
   font-size: 14px;
   color: #bab9b9;
   padding: 15px;
+  transition: color 1s;
+-moz-transition: color 1s;
+/* Firefox 4 */
+-webkit-transition: color 1s;
+/* Safari 和 Chrome */
+-o-transition: color 1s;
+/* Opera */
 }
 
-.foot_wrapper ul li.now {
+.foot_wrapper ul li.now,.foot_wrapper ul li:hover,.foot_wrapper ul li:active {
   color: $item_red;
 }
 

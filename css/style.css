@@ -46,10 +46,21 @@ p {
   display: inline-block;
   height: 100%;
   padding: 0 10px;
+  transition: color 1s;
+  -moz-transition: color 1s;
+  /* Firefox 4 */
+  -webkit-transition: color 1s;
+  /* Safari 和 Chrome */
+  -o-transition: color 1s;
+  /* Opera */
 }
 
 .header li:last-child {
   padding-right: 0;
+}
+
+.header li:active, .header li:hover {
+  color: #e71a1f;
 }
 
 .header .now {
@@ -130,12 +141,12 @@ p {
 .templet_lis ul li {
   width: 20%;
   float: left;
-  transition: all 2s;
-  -moz-transition: all 2s;
+  transition: all 1s;
+  -moz-transition: all 1s;
   /* Firefox 4 */
-  -webkit-transition: all 2s;
+  -webkit-transition: all 1s;
   /* Safari 和 Chrome */
-  -o-transition: all 2s;
+  -o-transition: all 1s;
   /* Opera */
 }
 
@@ -250,9 +261,14 @@ p {
   width: 270px;
   height: 260px;
   background: #dcc2ba;
+  overflow: hidden;
   position: absolute;
   top: 35px;
   left: -24%;
+}
+
+.about_right .net_img img {
+  width: 100%;
 }
 
 .about_right .net_info {
@@ -317,6 +333,8 @@ p {
 
 .about_3rd li p {
   margin-bottom: 60px;
+  height: 63px;
+  -webkit-line-clamp: 3;
 }
 
 .about_3rd li a {
@@ -455,9 +473,16 @@ p {
   font-size: 14px;
   color: #bab9b9;
   padding: 15px;
+  transition: color 1s;
+  -moz-transition: color 1s;
+  /* Firefox 4 */
+  -webkit-transition: color 1s;
+  /* Safari 和 Chrome */
+  -o-transition: color 1s;
+  /* Opera */
 }
 
-.foot_wrapper ul li.now {
+.foot_wrapper ul li.now, .foot_wrapper ul li:hover, .foot_wrapper ul li:active {
   color: #e71a1f;
 }
 

@@ -8,6 +8,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/hover-min.css">
   <title>清蝉网络</title>
 </head>
 
@@ -17,13 +20,13 @@
     <div class="content_wrapper">
       <ul class="text-right header fix-top">
         <div class="top-logo float__left"><img src="images/top_logo.png" alt=""></div>
-        <li class="now"><a href="#">首页</a></li>
-        <li><a href="">服务项目</a></li>
-        <li><a href="">成功案例</a></li>
-        <li><a href="">新闻资讯</a></li>
-        <li><a href="">技术支持</a></li>
-        <li><a href="about.html">关于清蝉</a></li>
-        <li><a href="contact.html">联系我们</a></li>
+        <li class="now hvr-grow"><a href="#">首页</a></li>
+        <li class="hvr-grow"><a href="service.html">服务项目</a></li>
+        <li class="hvr-grow"><a href="#case">成功案例</a></li>
+        <li class="hvr-grow"><a href="news.html">新闻资讯</a></li>
+        <li class="hvr-grow"><a href="technology.html">技术支持</a></li>
+        <li class="hvr-grow"><a href="about.html">关于清蝉</a></li>
+        <li class="hvr-grow"><a href="contact.html">联系我们</a></li>
       </ul>
     </div>
     <div class="banner_wrapper">
@@ -34,14 +37,14 @@
     <div class="content_wrapper">
       <dl class="templet_lis templet_service clear-float">
         <dt class="templet_title float__left">
-           <label class=" float__left">服务项目</label>
+           <label class="float__left hvr-glow">服务项目</label>
            <div class=" word_rl float__left">
              <p>服务项目是指企业或个人制定的一套符合标准且可向客户提供的服务内容，以满足客户需求。服务项目是指向客户提供的服务内容，以满足客户需求套符合标准且可向客户提供的服务内容，以满足客户需求。服务项目是指向客户提供的服务内容，以满足客户需求</p>
            </div>
          </dt>
         <ul class="clear-float">
-          <li>
-            <div class="lis-box">
+          <li class="animated object-visible fadeInLeft" data-animation-effect="fadeInLeft" data-effect-delay="400">
+            <div class="lis-box hvr-float">
               <div class="service_img net">
                 <img src="images/service_net.png" alt="" class="img-default">
                 <img src="images/service_ne_tactive.png" alt="" class="img-active">
@@ -50,8 +53,8 @@
               <p class="text-hidden-lines">服务项目是指企业或个人制定的一套符合标</p>
             </div>
           </li>
-          <li>
-            <div class="lis-box">
+          <li class="animated object-visible fadeInLeft " data-animation-effect="fadeInLeft" data-effect-delay="400">
+            <div class="lis-box  hvr-float">
               <div class="service_img wechat">
                 <img src="images/service_wechat.png" alt="" class="img-default">
                 <img src="images/service_wechat_active.png" alt="" class="img-active">
@@ -60,8 +63,8 @@
               <p class="text-hidden-lines">服务项目是指企是指企是指企业或个人制定的一套符合标</p>
             </div>
           </li>
-          <li>
-            <div class="lis-box">
+          <li class="animated object-visible fadeInRight" data-animation-effect="fadeInRight" data-effect-delay="400">
+            <div class="lis-box  hvr-float">
               <div class="service_img market">
                 <img src="images/service_market.png" alt="" class="img-default">
                 <img src="images/service_market_active.png" alt="" class="img-active">
@@ -70,8 +73,8 @@
               <p class="text-hidden-lines">服务项目是指企业或个人制定的一套符合标</p>
             </div>
           </li>
-          <li>
-            <div class="lis-box">
+          <li class="animated object-visible fadeInRight" data-animation-effect="fadeInRight" data-effect-delay="400">
+            <div class="lis-box hvr-float">
               <div class="service_img protect">
                 <img src="images/service_protect.png" alt="" class="img-default">
                 <img src="images/service_protect_active.png" alt="" class="img-active">
@@ -84,25 +87,25 @@
       </dl>
     </div>
     <!-- 成功案例 -->
-    <div class="case_wrapper clear-float">
+    <div class="case_wrapper clear-float" id="case">
       <div class="content_wrapper">
         <div class="case-left float__left">
           <ul class="clear-float">
-            <li class="case-01 case01 ver-center"><a href=""><img src="images/case01.png" alt=""></a></li>
-            <li class="case-01 case02 ver-center"><a href=""><img src="images/case02.png" alt=""></a></li>
-            <li class="case-03"></li>
-            <li class="case-01 case03 ver-center"><a href=""><img src="images/case03.png" alt=""></a></li>
-            <li class="case-01 case04 ver-center"></li>
-            <li class="case-01 case05 ver-center"><a href=""><img src="images/case05.png" alt=""></a></li>
-            <li class="case-02 case06 ver-center"><a href=""><img src="images/case06.png" alt=""></a></li>
-            <li class="case-02 ver-center"></li>
-            <li class="case-01 case07 ver-center"><a href=""><img src="images/case07.png" alt=""></a></li>
-            <li class="case-02 ver-center"></li>
+            <li class="case-01 case01 ver-center animated object-visible zoomIn" data-animation-effect="zoomIn" data-effect-delay="800"><a href=""><img src="images/case01.png" alt="" class="hvr-grow"></a></li>
+            <li class="case-01 case02 ver-center animated object-visible zoomIn" data-animation-effect="zoomIn" data-effect-delay="800"><a href=""><img src="images/case02.png" alt="" class="hvr-grow"></a></li>
+            <li class="case-03 animated object-visible zoomIn" data-animation-effect="zoomIn" data-effect-delay="800"></li>
+            <li class="case-01 case03 ver-center animated object-visible zoomIn" data-animation-effect="zoomIn" data-effect-delay="800"><a href=""><img src="images/case03.png" alt="" class="hvr-grow"></a></li>
+            <li class="case-01 case04 ver-center animated object-visible zoomIn" data-animation-effect="zoomIn" data-effect-delay="800"></li>
+            <li class="case-01 case05 ver-center animated object-visible zoomIn" data-animation-effect="zoomIn" data-effect-delay="800"><a href=""><img src="images/case05.png" alt="" class="hvr-grow"></a></li>
+            <li class="case-02 case06 ver-center animated object-visible zoomIn" data-animation-effect="zoomIn" data-effect-delay="800"><a href=""><img src="images/case06.png" alt="" class="hvr-grow"></a></li>
+            <li class="case-02 ver-center animated object-visible zoomIn" data-animation-effect="zoomIn" data-effect-delay="800"></li>
+            <li class="case-01 case07 ver-center animated object-visible zoomIn" data-animation-effect="zoomIn" data-effect-delay="800"><a href=""><img src="images/case07.png" alt="" class="hvr-grow"></a></li>
+            <li class="case-02 hvr-grow ver-center animated object-visible zoomIn" data-animation-effect="zoomIn" data-effect-delay="800"></li>
           </ul>
-          <div class="arrow-box"><a href="case.html"><img src="images/arrow_right.png" alt=""></a></div>
+          <div class="arrow-box hvr-skew-backward animated object-visible zoomIn" data-animation-effect="zoomIn" data-effect-delay="800"><a href="case.html"><img src="images/arrow_right.png" alt=""></a></div>
         </div>
         <dt class="templet_title float__left">
-         <label class=" float__right">成功案例</label>
+         <label class=" float__right  hvr-glow">成功案例</label>
          <div class=" word_rl float__right">
            <p>服务项目是指企业或个人制定的一套符合标准且可向客户提供的服务内容，以满足客户需求。服务项目是指向客户提供的服务内容，以满足客户需求套符合标准且可向客户提供的服务内</p>
          </div>
@@ -113,14 +116,14 @@
     <div class="content_wrapper">
       <div class="about-lis about_1st clear-float">
         <dt class="templet_title float__left">
-           <label class=" float__left">关于清蝉</label>
+           <label class=" float__left  hvr-glow">关于清蝉</label>
            <div class=" word_rl float__left">
              <p>服务项目是指企业或个人制定的一套符合标准且可向客户提供的服务内容，以满足客户需求。服务项目是</p>
            </div>
          </dt>
         <div class="about_right float__left">
           <div class="net_info float__right">
-            <div class="net_img float__left"></div>
+            <div class="net_img float__left hvr-grow"></div>
             <h1 class="text-right">清蝉网络 <small> Cicada clearing network</small></h1>
             <p class="text-hidden-lines">服务项目是指企业或个人制定的一套符合标准且可向客户提供的服务内容，以满足客户需求。服务项目是指向客户提供的服务内容，以满足客户需求套符合标准且可向客户提供的服务内容，以满足客户需求。 服务项目是指向客户提供的服务内容，以满足客户需求服务项目是指企业或个人制定的一套符合标准且可向客户提供的服务内容，以满足客户需求。服务项目是指向客户提供的服务内容，以满足客户需求套符合标准且可向客户提供的服务内容，以满足客户需求。服务项目是指向客户提供的服务内容，以满足客户需求以满足客户需求套符合标准且可向客户提供的服务内容，以满足客户需求。 服务项目是指向客户提供的服务内容，以满足客户需求服务项目是指企业或个人制定的一套符合标准且可向客户提供的服务内容，以满足客户需求。服务项目是指向客户提供的服务内容，以满足客户需求套符合标准且可向客户提供的服务内容，以满足客户需求。服务项目是指向客户提供的服务内容，以满足客户需求
             </p>
@@ -128,7 +131,7 @@
         </div>
       </div>
       <div class="about-lis about_2nd clear-float ver-center">
-        <div class="about_2nd_left float__left">
+        <div class="about_2nd_left float__left hvr-grow">
           <img src="images/about_img.jpg" alt="">
         </div>
         <ul class="about_2nd_right ver-center float__left">
@@ -136,19 +139,19 @@
         </ul>
       </div>
       <ul class="about-lis about_3rd text-center clear-float">
-        <li>
+        <li class="hvr-glow">
           <h3>售后百科</h3>
-          <p>务项目是指企业或个人制定的一套符合标准且可向客户提供的服务内容，以满足客户需求。服务项目是指向客户提供的服务内容</p>
+          <p class="text-hidden-lines">务项目是指企业或个人制定的一套符合标准且可向客户提供的服务内容，以满足客户需求。服务项目是指向客户提供的服务内容</p>
           <a href="">详情+</a>
         </li>
-        <li class="active">
+        <li class="active hvr-glow">
           <h3>维护指导</h3>
-          <p>务项目是指企业或个人制定的一套符合标准且可向客户提供的服务内容，以满足客户需求。服务项目是指向客户提供的服务内容</p>
+          <p class="text-hidden-lines">务项目是指企业或个人制定的一套符合标准且可业或个人制定的一套符合标准且可向客户提供的服务内容，以满足客户需求。服务项目是指向客户提供的服务内容</p>
           <a href="">详情+</a>
         </li>
-        <li>
+        <li class="hvr-glow">
           <h3>文档下载</h3>
-          <p>务项目是指企业或个人制定的一套符合标准且可向客户提供的服务内容，以满足客户需求。服务项目是指向客户提供的服务内容</p>
+          <p class="text-hidden-lines">务项目是指企业或个人制定的一套符合标准且可向客户提供的服务内容，以满足客户需求。服务项目是指向客户提供的服务内容</p>
           <a href="">下载+</a>
         </li>
       </ul>
@@ -156,13 +159,13 @@
     <!-- 新闻资讯 -->
     <div class="content_wrapper">
       <dl class="news_wrapper clear-float">
-        <dt><span>新闻资讯</span></dt>
+        <dt><span class="hvr-glow">新闻资讯</span></dt>
         <dd>
           <div class="float__left news-time">
             11-16 <small>2017</small>
           </div>
           <div class="float__left news-right">
-            <p>服务项目是指企业或个人制定的一套符合标准且</p>
+            <p class="text-hidden-line">服务项目是指企业或个人制定的一套符合标准且</p>
             <h3 class="text-hidden-lines">服务项目是指向客户提供的服务内容，以满足客户需求服务项目是指企业或个人制定的一套符合标准且可向客户提供的服务内容，以满</h3>
           </div>
         </dd>
@@ -171,7 +174,7 @@
             11-16 <small>2017</small>
           </div>
           <div class="float__left news-right">
-            <p>服务项目是指企业或个人制定的一套符合标准且</p>
+            <p class="text-hidden-line">服务项目是指企业或个人制定的一套符合标准且</p>
             <h3 class="text-hidden-lines">服务项目是指向客户提供的服务内容，以满足客户需求服务项目是指企业或个人制定的一套符合标准且可向客户提供的服务内容，以满</h3>
           </div>
         </dd>
@@ -180,7 +183,7 @@
             11-16 <small>2017</small>
           </div>
           <div class="float__left news-right">
-            <p>服务项目是指企业或个人制定的一套符合标准且</p>
+            <p class="text-hidden-line">服务项目是指企业或个人制定的一套符合标准且</p>
             <h3 class="text-hidden-lines">服务项目是指向客户提供的服务内容，以满足客户需求服务项目是指企业或个人制定的一套符合标准且可向客户提供的服务内容，以满</h3>
           </div>
         </dd>
@@ -191,7 +194,7 @@
             11-16 <small>2017</small>
           </div>
           <div class="float__left news-right">
-            <p>服务项目是指企业或个人制定的一套符合标准且</p>
+            <p class="text-hidden-line">服务项目是指企业或个人制定的一套符合标准且</p>
             <h3 class="text-hidden-lines">服务项目是指向客户提供的服务内容，以满足客户需求服务项目是指企业或个人制定的一套符合标准且可向客户提供的服务内容，以满</h3>
           </div>
         </dd>
@@ -202,31 +205,31 @@
       <ul class="contact_wrapper clear-float text-center">
         <li>
           <div class="contact-left">
-            <img src="images/phone_icon.png" alt="">
+            <img src="images/phone_icon.png" alt="" class="hvr-grow">
           </div>
           <div class="contact-right">
-            <p>座机：029-6666666666</p>
-            <p>座机：029-6666666666</p>
-            <p>座机：029-6666666666</p>
+            <p class="text-hidden-line">座机：029-6666666666</p>
+            <p class="text-hidden-line">手机：029-6666666666</p>
+            <p class="text-hidden-line">手机：029-6666666666</p>
           </div>
         </li>
         <li>
           <div class="contact-left">
-            <img src="images/chat_icon.png" alt="">
+            <img src="images/chat_icon.png" alt="" class="hvr-grow">
           </div>
           <div class="contact-right">
-            <p>座机：029-6666666666</p>
-            <p>座机：029-6666666666</p>
-            <p>座机：029-6666666666</p>
+            <p class="text-hidden-line">微信：029-6666666666</p>
+            <p class="text-hidden-line">QQ：029-6666666666</p>
+            <p class="text-hidden-line">邮箱：029-6666666666</p>
           </div>
         </li>
         <li>
           <div class="contact-left">
-            <img src="images/address_icon.png" alt="">
+            <img src="images/address_icon.png" alt="" class="hvr-grow">
           </div>
           <div class="contact-right">
-            <p>座机：029-6666666666</p>
-            <p>座机：029-6666666666</p>
+            <p class="text-hidden-line">清蝉网络</p>
+            <p class="text-hidden-line">地址：西安市高新区</p>
           </div>
         </li>
       </ul>
@@ -237,13 +240,13 @@
         <img src="images/foot_logo.png" alt="">
         <h2>清蝉网络</h2>
         <ul>
-          <li class="now"><a href="#">首页</a></li>
-          <li><a href="">服务项目</a></li>
-          <li><a href="">成功案例</a></li>
-          <li><a href="">新闻资讯</a></li>
-          <li><a href="">技术支持</a></li>
-          <li><a href="">关于清蝉</a></li>
-          <li><a href="">联系我们</a></li>
+          <li class="now hvr-grow"><a href="#">首页</a></li>
+          <li class="hvr-grow"><a href="service.html">服务项目</a></li>
+          <li class="hvr-grow"><a href="#case">成功案例</a></li>
+          <li class="hvr-grow"><a href="news.html">新闻资讯</a></li>
+          <li class="hvr-grow"><a href="technology.html">技术支持</a></li>
+          <li class="hvr-grow"><a href="about.html">关于清蝉</a></li>
+          <li class="hvr-grow"><a href="contact.html">联系我们</a></li>
         </ul>
         <p>Copyright © 2014-2018 版权所有 清蝉网络 陕ICP备16018783号-1</p>
       </div>
