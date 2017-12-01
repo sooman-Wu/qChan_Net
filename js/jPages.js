@@ -10,31 +10,31 @@
 
 ;(function($, window, document, undefined) {
 
-  // var name = "jPages",
-  //     instance = null,
-  //     defaults = {
-  //       containerID: "",
-  //       first: false,
-  //       previous: "",
-  //       next: "",
-  //       last: false,
-  //       links: "numeric", // blank || title
-  //       startPage: 1,
-  //       perPage: 12,
-  //       midRange: 3,
-  //       startRange: 1,
-  //       endRange: 1,
-  //       keyBrowse: false,
-  //       scrollBrowse: false,
-  //       pause: 0,
-  //       clickStop: false,
-  //       delay: 50,
-  //       direction: "forward", // backwards || auto || random ||
-  //       animation: "", // http://daneden.me/animate/ - any entrance animations
-  //       fallback: 400,
-  //       minHeight: true,
-  //       callback: undefined // function( pages, items ) { }
-  //     };
+  var name = "jPages",
+      instance = null,
+      defaults = {
+        containerID: "",
+        first: false,
+        previous: "",
+        next: "",
+        last: false,
+        links: "numeric", // blank || title
+        startPage: 1,
+        perPage: 4,
+        midRange: 3,
+        startRange: 1,
+        endRange: 1,
+        keyBrowse: false,
+        scrollBrowse: false,
+        pause: 0,
+        clickStop: false,
+        delay: 50,
+        direction: "forward", // backwards || auto || random ||
+        animation: "", // http://daneden.me/animate/ - any entrance animations
+        fallback: 400,
+        minHeight: true,
+        callback: undefined // function( pages, items ) { }
+      };
 
 
   function Plugin(element, options) {

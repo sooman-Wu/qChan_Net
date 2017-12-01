@@ -606,6 +606,13 @@ p {
     margin-bottom: 70px;
   }
 
+  dd:hover,dd:active {
+    .news-left span {
+      background: url("../images/news_icon_active.png") no-repeat center;
+      background-size: 100% 100%;
+    }
+  }
+
   .news-left {
     width: 15%;
     font-size: 28px;
@@ -617,8 +624,13 @@ p {
       width: 40px;
       height: 40px;
       margin-top: 20px;
-      background: url("../images/news_icon.jpg") no-repeat center;
+      background: url("../images/news_icon.png") no-repeat center;
       background-size: 100% 100%;
+      transition: color 1s;
+      -moz-transition: color 1s; /* Firefox 4 */
+      -webkit-transition: color 1s; /* Safari 和 Chrome */
+      -o-transition: color 1s;
+      /* Opera */
     }
 
     small {
@@ -643,7 +655,7 @@ p {
   .news-right {
     width: 20%;
     overflow: hidden;
-
+    height: 125px;
     img {
       display: block;
       margin: 0 auto;
